@@ -1,24 +1,16 @@
-# Sonia & Roberto · 24.10.2026
-
-Web preparada para GitHub Pages, con diseño adaptable a móvil y ordenador.
-
-## Publicación
-
-1. Descomprime el ZIP.
-2. Sube su contenido al repositorio: `index.html` debe quedar en la raíz y `assets` a su lado. No subas el ZIP como único archivo.
-3. Si usas la web de GitHub, sube los archivos en tandas de menos de 100. Las carpetas `galeria-1`, `galeria-2` y `composiciones` están separadas para facilitarlo. Conserva la estructura de carpetas. También puedes usar GitHub Desktop.
-4. En Settings → Pages, elige Deploy from a branch, rama main y carpeta / (root). Guarda.
-5. Cuando termine la publicación, envía el enlace que aparece en Pages.
-
-Con GitHub Free, el repositorio debe ser público. La web y sus fotografías quedarán accesibles públicamente.
+# Sonia & Roberto · Web final
+## Subir a GitHub
+1. Descomprime el paquete.
+2. Copia su contenido completo en tu repositorio usando GitHub Desktop. index.html debe quedar en la raíz, junto a assets y downloads.
+3. Publica los cambios.
+4. En Settings → Pages, selecciona Deploy from a branch, main y / (root).
+5. Comparte el enlace de Pages cuando esté disponible.
 
 ## Contenido
+227 fotografías (120 de familia y firmas y 107 del álbum), 20 composiciones, PDF de presentación y cuatro canciones con fundidos y reproducción en bucle.
+La portada y las ampliaciones utilizan imágenes de mayor resolución. Incluye la dedicatoria de Sara y ambos botones de descarga del álbum.
 
-- index.html: web completa y controles.
-- assets/galeria-1 y assets/galeria-2: 107 fotografías.
-- assets/composiciones: imágenes de las composiciones del PDF.
-- assets/nuvole-bianche.mp3: canción completa.
-- assets/playfair-display.ttf: tipografía integrada.
-- .nojekyll: permite servir directamente los archivos estáticos.
+## Descarga del álbum
+El álbum está dividido en tres archivos .part para que ningún archivo del repositorio sea demasiado grande. La web los une al pulsar Descargar todo el álbum y entrega un único ZIP con las 227 fotografías. Conserva todos los archivos de downloads y sus nombres. Esta descarga requiere abrir la web desde GitHub Pages o un servidor local, no directamente como archivo.
 
-La música intenta comenzar con el primer scroll. Si el navegador bloquea el audio automático, se activa pulsando Música. Las composiciones horizontales conservan su distribución; los retratos individuales se adaptan a la pantalla vertical.
+La música se activa con el botón si el navegador bloquea el inicio al hacer scroll.
